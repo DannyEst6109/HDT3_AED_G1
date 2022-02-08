@@ -6,7 +6,7 @@ public class GeneradorDeNumeros implements Interfaz{
     public int GenerarNum(int num){
         Random random = new Random();
 
-        num = random.nextInt();
+        num = random.nextInt(50 + 1) + 1;
 
         return num;
     }
